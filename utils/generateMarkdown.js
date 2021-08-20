@@ -43,15 +43,19 @@ function generateMarkdown(data) {
 
   ## GitHub Information
   ${data.github}
+
   ${data.link}
+  
   ${data.email}
 
   ## Installation & Usage
   ${data.installation}
+
   ${data.projectUse}
 
   ## Collaborators
   ${data.confirmCredits}
+
   ${data.projectCredits}
 
   ## License
@@ -62,10 +66,12 @@ function generateMarkdown(data) {
   
   ## Contributions
   ${data.confirmContributing}
+
   ${data.projectContributors}
 
   ## Tests
   ${data.confirmTests}
+
   ${data.projectTests}
 
 `;
