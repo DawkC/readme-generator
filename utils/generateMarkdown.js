@@ -22,6 +22,14 @@ function renderLicenseSection(license) {
   )}).`;
 }
 
+// function renderCredits(projectCredits) {
+//   if ("projectCredits" === true) {
+//     return data.projectCredits;
+//     } else {
+//       return "";
+//     }
+//   };
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -34,7 +42,8 @@ function generateMarkdown(data) {
   ## Table of Contents
   * [Description](#description)
   * [GitHub Information](#github-information)
-  * [Installation & Usage](#installation-&-usage)
+  * [Installation](#installation)
+  * [Usage](#usage)
   * [Collaborators](#collaborators)
   * [License](#license)
   * [Languages](#languages)
@@ -45,17 +54,16 @@ function generateMarkdown(data) {
   ${data.github}
 
   ${data.link}
-  
+
   ${data.email}
 
-  ## Installation & Usage
+  ## Installation
   ${data.installation}
-
+  
+  ## Usage
   ${data.projectUse}
 
-  ## Collaborators
-  ${data.confirmCredits}
-
+  ## Credits
   ${data.projectCredits}
 
   ## License
@@ -65,16 +73,12 @@ function generateMarkdown(data) {
   ${data.languages}
   
   ## Contributions
-  ${data.confirmContributing}
-
   ${data.projectContributors}
 
   ## Tests
-  ${data.confirmTests}
-
   ${data.projectTests}
 
 `;
-}
+};
 
 module.exports = generateMarkdown;

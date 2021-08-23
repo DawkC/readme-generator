@@ -2,12 +2,13 @@
   # Readme Generator
 
   ## Description
-  Generate a README.md file for a project.
+  Generates a README.md file that ask a series of questions and produces a readme file.
 
   ## Table of Contents
   * [Description](#description)
   * [GitHub Information](#github-information)
-  * [Installation & Usage](#installation-&-usage)
+  * [Installation](#installation)
+  * [Usage](#usage)
   * [Collaborators](#collaborators)
   * [License](#license)
   * [Languages](#languages)
@@ -16,28 +17,29 @@
 
   ## GitHub Information
   DawkC
+
   https://github.com/DawkC/readme-generator
+
   c.a.dawkins@outlook.com
 
-  ## Installation & Usage
-  Inquirer
-  To generate a Readme File for project use.
+  ## Installation
+  Inquirer and (FS) File System for Nodejs.
+  
+  ## Usage
+  To generate a readme file for projects.
 
-  ## Collaborators
-  false
+  ## Credits
   undefined
 
   ## License
   This project is licensed under [MIT](undefined).
 
   ## Languages
-  JavaScript,HTML,CSS,ES6,Node
+  JavaScript,HTML,ES6,Node
   
   ## Contributions
-  false
-  undefined
+  Create a function to make undefined answers defined.
 
   ## Tests
-  false
   undefined
 
